@@ -2,6 +2,7 @@
   "name": "gif-expert-app",
   "private": true,
   "version": "0.0.0",
+<<<<<<< HEAD
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,10 +11,20 @@
   },
   "dependencies": {
     "prop-types": "^15.8.1",
+=======
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+>>>>>>> b45563516fbe18b75916a1590f3e710bfce5003d
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@testing-library/react": "^13.4.0",
@@ -28,3 +39,11 @@
     "whatwg-fetch": "^3.6.2"
   }
 }
+=======
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.0"
+  }
+}
+>>>>>>> b45563516fbe18b75916a1590f3e710bfce5003d

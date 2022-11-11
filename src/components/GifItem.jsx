@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import PropTypes from 'prop-types';
+=======
+>>>>>>> b45563516fbe18b75916a1590f3e710bfce5003d
 
 export const GifItem = ({ title, url }) => {
 
@@ -10,8 +13,11 @@ export const GifItem = ({ title, url }) => {
     );
 
 }
+<<<<<<< HEAD
 
 GifItem.propTypes = {
     title : PropTypes.string.isRequired,
     url : PropTypes.string.isRequired,
 }
+=======
+>>>>>>> b45563516fbe18b75916a1590f3e710bfce5003d
